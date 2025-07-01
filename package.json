@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
     "start": "tsx server/index.ts",
+    "build": "echo \"No build step required\"",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
